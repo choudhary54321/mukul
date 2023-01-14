@@ -1,0 +1,126 @@
+
+    body {
+        font-family: 'PT Serif', serif;
+        color: whitesmoke;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://th.bing.com/th/id/R.899f15f3df94c96a70d7666ffc3c02e6?rik=QGm0xj7BDTb3Sg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fXuUMwKA.jpg&ehk=FOTwSM1zIqZ0DobZiCEa%2bF7O3pIc%2fQsDC2abfLpzdxU%3d&risl=&pid=ImgRaw&r=0')
+    }
+  
+    
+
+    .left {
+        display: inline-block;
+        /border: 2px solid rgb(239, 113, 113);/
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+    }
+
+    .left img {
+        width: 94px;
+
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 22px;
+        font-size: 26px;
+    }
+
+  
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        
+        
+        /*    border: 2px solid rgb(68, 12, 146);*/
+    } 
+   
+ 
+    .navbar {
+        display: inline-block;
+        color: blue;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 15 px;
+        cursor: pointer;
+        color: blue;
+    }
+    
+    .navbar li a {
+        color: rgb(41, 4, 59);
+        text-decoration: underline;
+        padding: 30px 10px;
+    }
+
+    
+    .active, .navbar li a:hover {
+        text-decoration:none;
+        color: white(231, 224, 224);
+        border: 2px;
+    }
+    .navbar .fa{
+        margin-right: 4px;
+    }
+
+
+    .btn {
+        font-family: 'PT Serif', serif;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 12px;
+        font-size: 15px;
+        border: 2px solid grey;
+        border-radius: 8px;
+        cursor: pointer;
+
+    }
+
+    .btn:hover {
+        border: rgb(52, 4, 4);
+    }
+
+    .container {
+        font-size: larger;
+color: blue;
+        /*  border: 2px solid rgb(128, 0, 4); */
+        margin:0%;
+        padding: 2px;
+        width: 85%;
+        border-radius: 2px;
+
+    }
+
+    .form-group input {
+        font-size: 14PX;
+        text-align: center;
+        display: block;
+        width: 33%;
+        padding: 5px 43px;
+        border-radius: 7px;
+        margin: 7px auto;
+    }
+
+    .container button {
+        display: block;
+        width: 25%;
+        margin: auto;
+}
+.search{
+    float: right;
+    color: rgb(98, 43, 43);
+    padding: 3px 4px;
+    margin: 4px;
+    background-color: brown;
+    border-radius: 3px;
+}
+
